@@ -1,0 +1,168 @@
+/* Bordered form */
+body {
+   
+   background-color: blue;
+   overflow: hidden;
+}
+.head{
+   background-Color: green;
+   border: 1px solid green;
+   position: absolute;
+   top: 0;
+   width: 100%;
+   left: 0;
+}
+h1{
+   color: white;
+   font-family: impact;
+   position: relative;
+   top: 0;
+   left: 15px;
+   
+}
+#bck{
+   position: fixed;
+   top: 80px;
+   left: 0;
+   width: 100%;
+   height: 100%;
+   opacity: 0.8;
+   
+}
+form {
+    border: 3px solid #f1f1f1;
+    height: 500px;
+    width: 400px;
+    position: absolute;
+    top: 18%;
+    left: 38%;
+    background-color:white;
+    border-color:green;
+    
+}
+/* Full-width inputs */
+input[type=text], input[type=password] {
+    width: 110%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+.input{
+    position: relative;
+    top: -100px;
+    right: -55px;
+    
+}
+#lbl1{
+    position: relative;
+    top: -60px;
+    right: 105px;	
+}
+#lbl2{
+    position: relative;
+    top: -80px;
+    right: 105px;
+}
+#lbl3{
+    position: relative;
+    top: -185px;
+    right: -20px;
+}
+#lbl4{
+    position: relative;
+    top: -140px;
+    right: -30px;   
+}
+#lbl5{
+    position: relative;
+    top: -120px;
+    right: 60px;
+}
+.pass{
+    position: relative;
+    top: -120px;
+    right: -55px;
+}
+#chkbox{
+    position: relative;
+    left: -5px;
+}
+/* Set a style for all buttons */
+button{
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 110%;
+    position: relative;
+    top: -110px;
+    right: -55px;
+}
+.
+/* Add a hover effect for buttons */
+button:hover {
+    opacity: 0.8;
+}
+.top{
+   background-color: blue;
+   width: 170%;
+   position: relative;
+   top: -120px;
+   left: -68px;
+}
+.denominator{
+  border: 1px solid black;
+  margin-bottom: 25px;
+  width: 180%;
+  position: relative;
+  top: -125px;
+  left: -80px;
+}
+/* Extra style for the cancel button (red) */
+.cancelbtn {
+    width: auto;
+    padding: 10px 18px;
+    background-color: #f44336;
+}
+
+/* Center the avatar image inside this container */
+.imgcontainer {
+    text-align: center;
+    margin: 24px 0 12px 0;
+}
+
+/* Avatar image */
+img.avatar {
+    height: 125px;
+    width: 125px%;
+    border-radius: 50%;
+    border-color:green;
+      
+}
+
+/* Add padding to containers */
+.container {
+    padding: 100px;
+    text-align: center;
+}
+
+/* The "Forgot password" text */
+span.psw {
+    float: right;
+    padding-top: 16px;
+}
+
+/* Change styles for span and cancel button on extra small screens */
+@media screen and (max-width: 300px) {
+    span.psw {
+        display: block;
+        float: none;
+    }
+    .cancelbtn {
+        width: 100%;
+    }
+}

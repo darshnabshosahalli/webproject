@@ -1,0 +1,74 @@
+body{
+   background-color: blue;
+   overflow: hidden;
+}
+.header{
+   background-Color: green;
+   border: 1px solid green;
+   position: absolute;
+   top: 0;
+   width: 100%;
+   left: 0;
+}
+.tabcontent {
+    display: none;
+    padding: 6px 12px;
+    border: 1px solid #ccc;
+    border-top: none;
+}
+h1{
+   color: white;
+   font-family: impact;
+   position: relative;
+   top: 0;
+   left: 15px;
+   
+}
+#bck{
+   position: fixed;
+   top: 80px;
+   left: 0;
+   width: 100%;
+   height: 100%;
+   opacity: 0.8;
+}
+form {
+    border: 3px solid #f1f1f1;
+    height: 615px;
+    width: 1525px;
+    position: absolute;
+    top: 15%;
+    left: 2%;
+    background-color:white;
+    border-color:green;
+    
+}
+/* Style the top navigation bar */
+.navbar {
+    overflow: hidden; /* Hide overflow */
+    background-color: #3B61C8; /* Dark background color */
+    color: white;
+    font-family: impact;
+}
+
+/* Style the navigation bar links */
+.navbar a {
+    float: left; /* Make sure that the links stay side-by-side */
+    display: block; /* Change the display to block, for responsive reasons (see below) */
+    color: white; /* White text color */
+    text-align: center; /* Center the text */
+    padding: 14px 20px; /* Add some padding */
+    text-decoration: none; /* Remove underline */
+}
+
+/* Right-aligned link */
+.navbar a.right {
+    float: right; /* Float a link to the right */
+}
+
+/* Change color on hover/mouse-over */
+.navbar a:hover {
+    background-color: #071847; /* Grey background color */
+    color: white; /* Black text color */
+    font-family: impact;
+}

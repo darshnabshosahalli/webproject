@@ -1,0 +1,35 @@
+<!doctype html>
+<head>
+<script type="text/javascript" src="login.js" ></script>
+<title>E-billing System</title>
+<link rel="stylesheet" type="text/css" href="logincss.css">
+</head>
+<body>
+<div class="head">
+<h1>Electricity-Billing System</h1>
+</div>
+<img id="bck" src="assets/backimg.jpg">
+<form action="action_page.php">
+  <div class="imgcontainer">
+    <img src="assets/avatar.png" alt="Avatar" class="avatar">
+  </div>
+
+  <div class="container">
+    <label id="lbl1" for="uname"><b>Username</b></label>
+    <input type="text" class="input" id="usname" placeholder="Enter Username" name="uname" required>
+
+    <label id="lbl2" for="psw"><b>Password</b></label>
+    <input type="password" class="pass" placeholder="Enter Password" name="psw" required>
+
+    <button type="submit" onclick="AlertFunction()" class="submit" ">Login</button>
+    <label id="lbl3">
+      <input type="checkbox" id="chkbox" checked="checked" name="remember"> Remember me
+    </label>
+    <hr class="denominator"> 
+    <label id="lbl4"><b>Not a member yet?</b></label>
+    <label id="lbl5"><b>Sign Up</b></label> 
+    <button type="submit" onclick="OpenSignUp()" class="top" >SignUp</button>
+  </div>
+</form>
+</body>
+</html>
